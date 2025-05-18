@@ -157,7 +157,7 @@ class DeepNetworkWAdam:
 
 
 
-df=pd.read_csv("C:/Users/yanis/OneDrive/Desktop/amazon.csv")
+df=pd.read_csv("amazon_reviews_dataset.csv")
 
 texts=df['Text'].tolist()         #Extract the reviews column and cast to list() for processing
 labels=np.array(df['label'])      #Cast labels to np.array
