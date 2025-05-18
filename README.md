@@ -1,1 +1,1 @@
-# nn_from_scratch
+# ML Models implemented from the ground up
